@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 50px;
+}
+.ota{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 70px;
+    justify-content: center;
+}
+.bola{
+    display: flex;
+    padding: 8px;
+    width: 360px;
+    height: 240px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    background-color: #995db5;
+}
+
+.nevara{
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    background-color: #f7941f;
+}
+
+
+
+.bola:nth-child(1){
+    display: flex;
+    gap: 8px;
+}
+.bola:nth-child(2){
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.bola:nth-child(3){
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.bola:nth-child(4){
+    display: flex;
+    justify-content: space-between;
+}
+.bola:nth-child(5){
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.bola:nth-child(6){
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+}
+.bola:nth-child(7){
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+
+.bola:nth-child(8){
+    display: flex;
+    justify-content: space-around;
+    gap: 8px;
+}
+.bola:nth-child(9){
+    display: flex;
+    gap: 8px;
+}
+
+.bola:nth-child(10){
+    display: flex;
+    align-items: end;
+    padding: 8px;
+    gap: 8px;
+}
+
+.bola:nth-child(11){
+    display: flex;
+    gap: 8px;
+    align-items: center;    
+}
+
+.bola:nth-child(12){
+    display: flex;
+    justify-content: space-around;
+    gap: 8px;
+}
